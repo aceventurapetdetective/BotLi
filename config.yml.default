@@ -23,7 +23,7 @@ engine:                                   # Engine settings.
   variants:
     enabled: false                        # Activate seperate engine for other chess variants than standard and chess960.
     dir: "./engines"                      # Directory containing the engine.
-    name: "fairy-stockfish"               # Binary name of the engine to use.
+    name: "fairystockfish"               # Binary name of the engine to use.
     ponder: true                          # Think on opponent's time.
     silence_stderr: false                 # Suppresses stderr output.
     uci_options:                          # Arbitrary UCI options passed to the engine. (Commenting allowed)
